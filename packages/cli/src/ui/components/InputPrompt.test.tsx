@@ -43,6 +43,7 @@ import {
   type InputPromptProps,
 } from './InputPrompt.js';
 import { InputContext } from '../contexts/InputContext.js';
+import { type UIState } from '../contexts/UIStateContext.js';
 import {
   calculateTransformationsForLine,
   calculateTransformedLine,
